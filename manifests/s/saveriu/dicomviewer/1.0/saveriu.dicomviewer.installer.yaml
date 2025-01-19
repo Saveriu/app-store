@@ -1,0 +1,12 @@
+# Created using wingetcreate 1.9.4.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: saveriu.dicomviewer
+PackageVersion: "1.0"
+InstallerType: nullsoft
+Installers:
+- Architecture: x64
+  InstallerUrl: https://www.microdicom.com/downloads/Software/MicroDicom-2024.3-x64.exe
+  InstallerSha256: BD64DB116113113579498D705AE4FFB77CF75F99EE88B2301C5B8BF94379E894
+ManifestType: installer
+ManifestVersion: 1.9.0
